@@ -1,0 +1,12 @@
+					======================================================
+						Flow Control Statements in Python
+									OR
+						Control Structures in Python 
+					======================================================
+=>The Purpose of Flow Control Statements is that "To Perform Certain Operation (X-Operation in the case of True OR Y-Operation in the case of False) Only Once OR Perform Certain Operation Repeatedly for Finite Number of Times until Test Condition becomes False".
+=>In Python Programming, we have 3 Categories of Flow Control Statements. They are
+
+				I. Conditional OR Selection OR Branching Statements
+				II. Looping OR Iterative OR Repetative Statements 
+				III. Transfer Flow Statements
+---------------------------------------------------------------------------------------------------------------------------------------------
