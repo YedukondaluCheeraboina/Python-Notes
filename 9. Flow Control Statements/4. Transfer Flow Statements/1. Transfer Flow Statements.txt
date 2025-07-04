@@ -1,0 +1,10 @@
+					======================================================
+							Transfer Flow Statements
+					======================================================
+=>The Purpose of Transfer Flow Statements is that "To change the control of PVM from One Part of the Program to another Part of the Program".
+=>We have 4 Transfer Flow Statements. They are
+						1. break
+						2. continue
+						3. pass
+						4. return
+----------------------------------------------------------------------------------------------------------------------------------------------
