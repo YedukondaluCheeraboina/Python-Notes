@@ -19,37 +19,22 @@ This collection is designed to help beginners and intermediate learners quickly 
 ## 🗂 Repository Structure:
 ```text
 Python-Notes/
-│
-├── 01_Basics/
-│   ├── variables.md
-│   ├── data_types.md
-│   └── operators.md
-│
-├── 02_Control_Flow/
-│   ├── if_else.md
-│   ├── loops.md
-│   └── list_comprehension.md
-│
-├── 03_Functions/
-│   ├── functions.md
-│   ├── lambda_functions.md
-│   └── recursion.md
-│
-├── 04_Modules_and_Packages/
-│   ├── modules.md
-│   └── packages.md
-│
-├── 05_File_Handling/
-│   ├── reading_files.md
-│   └── writing_files.md
-│
-├── 06_Error_Handling/
-│   └── try_except.md
-│
-├── 07_OOP/
-│   ├── classes_objects.md
-│   ├── inheritance.md
-│   └── polymorphism.md
-│
-└── README.md
+├── 1. Python Basics/
+├── 2. Parameters and Arguments/
+├── 3. Local and Global Variables/
+├── 4. Global Keyword/
+├── 5. Globals Function/
+├── 6. Comprehensions/
+├── 7. Anonymous (Lambda) Functions/
+├── 8. Inbuilt Special Functions/
+├── 9. Special Functions (Decorators, Closures, Generators, Iterators)/
+├── 10. Features of Python/
+├── 11. Data Representation/
+├── 12. Data Types/
+├── 13. Approaches to Python Programs/
+├── 14. Print or Display Result/
+├── 15. Dynamic Data Reading/
+├── 16. Operators/
+├── 17. Flow Control Statements/
+└── Other supporting files and folders
 
