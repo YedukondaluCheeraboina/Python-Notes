@@ -1,0 +1,142 @@
+				===========================================================================
+					Number of Approaches To develop the Python Programs / Applications / Project
+				===========================================================================
+What is Program
+----------------------------
+=>Set of Optimized Instructions is Called Program and It is meant performing Certain Operation / Task.
+=>Here Optimized Instructions represents Less Time Complexity and Less Space Complexity.
+=>In Real Time, If we get any Task then to Solve that Task we write Programs.
+=>In Python Programming, the Python Programs Must be saved on some File Name with an extension .py (FileName.py)
+----------------------------
+=>In Python Environment, we have 2 Approaches to Develop Python Program. They are
+
+				1. Interactive Approach
+				2. Batch Mode Approach
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1. Interactive Approach
+-----------------------------------------------------------------------------------------------------------------------------------------------
+=>In Interactive Approach, The Python Programmer can Issue One Statement at a time and Gives an ouput at a time.
+=>The Interactive Approach is useful to Test One Instruction at a time.
+=>In Interactive Approach , Python Programmer is Uanble to save the Code and Not able to Re-Use the Code in Other Part 
+    of the Application.
+=>hence If we want to Re-Use the Code in Other Part of the Application, we must go for Batch Mode Approach.
+----------------------------
+Examples Softwares:
+----------------------------
+						1. Python Command 
+						2. Python IDLE Shell 
+--------------------------
+Examples
+--------------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(a)-----------------10
+>>> print(b)-----------------20
+>>> print(c)------------------30
+-----------------------------------------------------------------------------------------------------------------------------------------------
+2. Batch Mode Approach
+-----------------------------------------------------------------------------------------------------------------------------------------------
+=>In  Batch Mode Approach, The python programmer writes Batch OR Group of Optimized Instructions(Program) and saved on Some name (FileName) with an extension .py (FileName.py) and we can re-Use that code in Other part of Application.
+=>Hence To develop any task in real time, we must use Batch Mode approach.
+----------------------------------
+Examples Softwares
+----------------------------------
+					1. Python IDLE Shell 
+				-----------------------------------------------
+					Python Real Time IDES
+				-----------------------------------------------
+					1. Pycharm
+					2. Anaconda Jupiter Note Book
+					3. Anaconda Spider
+					4. VS Code
+					5. Sub Lime Text......etc
+				--------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+NOTE: Running  the python Program from Windows Command Prompt
+-----------------------------------------------------------------------------------------------------------------------------------------------
+=>To Run  the python Program from Windows Command Prompt, we Have 2 Tools Present in C:\Users\KVR\AppData\Local\Programs\Python\Python313.  They are
+
+					1. python
+					2. py
+Syntax:
+-----------
+			E:\KVR-PYTHON-6PM\BATCH MODE>python FileName.py
+						OR
+			E:\KVR-PYTHON-6PM\BATCH MODE>py FileName.py
+			
+--------------------------------------------------------------
+Examples
+--------------------------------------------------------------
+C:\Windows\System32>e:
+
+E:\>cd kvr-python-6pm
+E:\KVR-PYTHON-6PM>cd batch mode
+-----------------------------------------------------------
+E:\KVR-PYTHON-6PM\BATCH MODE>python MulEx2.py
+Enter First Value:5
+Enter Second Value:6
+--------------------------------------------------
+Mul(5.0,6.0)=30.0
+--------------------------------------------------
+
+E:\KVR-PYTHON-6PM\BATCH MODE>python MulEx1.py
+Enter First Value:4
+Enter Second Value:5
+--------------------------------------------------
+Val of a=4.0
+Val of b=5.0
+Mul=20.0
+--------------------------------------------------
+
+E:\KVR-PYTHON-6PM\BATCH MODE>py SumEx1.py
+10
+20
+30
+
+E:\KVR-PYTHON-6PM\BATCH MODE>py SumEx2.py
+---------------------------
+Val of a= 100
+Val of b= 200
+Sum= 300
+---------------------------
+
+E:\KVR-PYTHON-6PM\BATCH MODE>py SumEx3.py
+Enter val of a:5
+Enter Val of b:6.7
+**************************************************
+Val of a= 5.0
+Val of b= 6.7
+sum= 11.7
+**************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

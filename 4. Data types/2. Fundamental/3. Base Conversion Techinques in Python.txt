@@ -1,0 +1,132 @@
+				==========================================================
+						Base Conversion Techniques in Python
+				==========================================================
+=>The Purpose of Base Conversion Techinques in Python is that "To Convert the Value of One Base into another base value".
+=>We have 3 Base Conversion Techinques in Python. They are
+						1. bin()
+						2. oct()
+						3. hex()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. bin()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:         varname=bin(Decimal OR Octal OR HexaDecimal)
+=>This Function Converts Decimal OR Octal OR Hexa Decimal values into Binary value.
+-----------------------------
+Examples
+-----------------------------
+>>> a=15
+>>> bv=bin(a)
+>>> print(bv,type(bv))-----------------0b1111 <class 'str'>
+>>> bv=bin(10)
+>>> print(bv,type(bv))----------------0b1010 <class 'str'>
+----------------------------
+>>> a=0o17
+>>> bv=bin(a)
+>>> print(bv,type(bv))--------------0b1111 <class 'str'>
+>>> bv=bin(0o5)
+>>> print(bv,type(bv))-------------0b101 <class 'str'>
+-----------------------------
+>>> a=0XF
+>>> bv=bin(a)
+>>> print(bv,type(bv))-------------------0b1111 <class 'str'>
+>>> bv=bin(0x10)
+>>> print(bv,type(bv))-------------------0b10000 <class 'str'>
+>>> bv=bin(0xb)
+>>> print(bv,type(bv))-------------------0b1011 <class 'str'>
+--------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. oct()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:   varname=oct(Decimal OR Binary OR Hexa Decimal)
+=>This Function Converts Decimal OR Binary OR Hexa Decimal Values into Octal value.
+---------------------------
+Examples
+----------------------------
+>>> a=15
+>>> ov=oct(a)
+>>> print(ov,type(ov))------------0o17 <class 'str'>
+>>> ov=oct(8)
+>>> print(ov,type(ov))-----------0o10 <class 'str'>
+------------------------
+>>> a=0b1010
+>>> ov=oct(a)
+>>> print(ov,type(ov))---------------0o12 <class 'str'>
+>>> ov=oct(15)
+>>> print(ov,type(ov))--------------0o17 <class 'str'>
+-----------------------------
+>>> a=0xF
+>>> ov=oct(a)
+>>> print(ov,type(ov))--------------0o17 <class 'str'>
+>>> ov=oct(0x15)
+>>> print(ov,type(ov))--------------0o25 <class 'str'>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. hex()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:  varname=hex(Decimal OR Binary OR Octal)
+=>This Function Converts Decimal OR Binary OR Octal Values into Hexa Decimal Value
+-----------------------------
+Examples
+-----------------------------
+>>> a=15
+>>> hv=hex(a)
+>>> print(hv,type(hv))----------------0xf <class 'str'>
+>>> hv=hex(172)
+>>> print(hv,type(hv))---------------0xac <class 'str'>
+-----------------------------
+>>> a=0b1111
+>>> hv=hex(a)
+>>> print(hv,type(hv))---------------0xf <class 'str'>
+------------------------------
+>>> a=0o17
+>>> hv=hex(a)
+>>> print(hv,type(hv))-----------0xf <class 'str'>
+---------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case Study : Base Conversion calculator---Flow Control Statement--Concept
+
+					============================================================
+							Menu Driven applications
+					============================================================
+						1.	B to D-----------------Automatic
+							O to D-----------------Automatic
+							H to D-----------------Automatic
+
+						2.	D to B-------------------bin()
+							O to B-------------------bin()
+							H to B-------------------bin()
+
+						3.   D to O-------------------oct()
+						       B to O-------------------oct()
+						       H to O-------------------oct()
+
+						4.  D to H--------------------hex()
+						      B to H--------------------hex()
+						      O to H--------------------hex()
+					============================================================
+						Enter Ur Choice:
+					============================================================
+
+NOTE:  When Store Binary, Octal and HexaDecimal values in the form of str data then
+		we can convert those values into decimal values by using int(StrBinValue/StrOct/StrHex, base)
+------------------
+Examples
+-------------------
+>>> a='0b10000'
+>>> print(a,type(a))-------------------0b10000 <class 'str'>
+>>> int(a,2)-----------------------------16
+>>> a='0o17'
+>>> print(a,type(a))-------------------0o17 <class 'str'>
+>>> int(a,8)------------------------------15
+>>> a=0o17
+>>> print(a,type(a))--------------------15 <class 'int'>
+>>> a='0xF'
+>>> print(a,type(a))--------------------0xF <class 'str'>
+>>> int(a,16)----------------------------15
+-------------------------------------------------------------------
+>>> a='0b1111'
+>>> #Convert the above value into Hexa Decimal , Octal and Decimal Value
+>>> hex(int(a,2))----------'0xf'
+>>> oct(int(a,2))-----------'0o17'
+>>> int(a,2)------------------15
+=======================================x=============================================
+

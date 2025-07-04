@@ -1,0 +1,36 @@
+				======================================================
+							2. Platform Independent
+				======================================================
+Def. of Platform:
+-------------------------
+=>Type of OS Being Used to Run OR Execute the Application OR Program OR Project is called Platform.
+--------------------------------------------------------
+Def. of OS(Operating System)
+--------------------------------------------------------
+=>OS is a Software which acts as Resources Allocation and De-allocation Manager.
+	Here Resources are Nothing Computer Hardware--->RAM, Hard Disk, CPU, Moniter, KeyBoard...etc
+					OR
+=>OS is one the Interface between Program and Computer hardware.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Industry, we have 2 Types of Programming Language. They are
+
+					1. Paltform Dependent Languages
+					2. Paltform Inependent Languages
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Paltform Dependent Languages
+------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Platform Dependent Lang, Data Types differes from One OS to Another OS and and These Lang are PLATFORM DEPENDENT.
+
+Examples: C, C++
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Paltform Inependent Languages
+------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Platform Independent Lang, The Memory Space taken by Data Types  remains Same on All Types OSes.
+=>In Effective Platform Independent Lang, all types of Values will store in the form of OBJECTs and they can store 
+   Un-Limited amount of data
+=>Hence java Object contains Size Restricted and Memory space Restricted where as Python Objects contains Un-limited 
+   Size and unlimited values can store.
+
+NOTE: IN PYTHON ALL VALUES ARE STOREd IN THE OF OBJECTS.
+Examples:   Java, PYTHON
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,39 @@
+				============================================================
+									2. float
+				===========================================================
+=>Here 'float' is one of the Pre-Defined Class and Treated as Fundamental Data Type.
+=>The Purpose of 'float' data type is that "To store Real Constant Value OR Floating point Values such as Percentage of 
+    Marks, Percentile, Comm...etc
+=>The float data type can also be used Representing OR Storing Scientific Notation Data(Most Imp).
+=>The General Notation of Scientific Notation Data is 'Mantisa e Exponent'
+=>The EQV. Floating Value for cientific Notation Data is 'Mantisa e Exponent' = Mantisa x 10 to the power of Exponent.
+=>The Advantage of Scientific Notation Data is to take Less Memory Space for Large Representation of Floating point Values.
+=>float data type does not Support to store Binary, Octal and Hexa Decimal. But It Supports Only Decimal Number Values.
+----------------------------------------
+Examples
+----------------------------------------
+>>> a=1.2
+>>> b=2.3
+>>> c=a+b
+>>> print(a,type(a))-------------------1.2 <class 'float'>
+>>> print(b,type(b))-------------------2.3 <class 'float'>
+>>> print(c,type(c))--------------------3.5 <class 'float'>
+----------------------------
+>>> a=10
+>>> b=1.2
+>>> c=a+b
+>>> print(a,type(a))---------------------10 <class 'int'>
+>>> print(b,type(b))--------------------1.2 <class 'float'>
+>>> print(c,type(c))---------------------11.2 <class 'float'>
+-----------------------------------------------
+>>> a=3e2
+>>> print(a,type(a))----------------300.0 <class 'float'>
+>>> a=10e-2
+>>> print(a,type(a))--------------0.1 <class 'float'>
+>>> a=0.00000000000000000000000000000000000000000000000000045
+>>> print(a,type(a))-----------------4.5e-52 <class 'float'>
+-----------------------------------------------
+>>> a=0b1010.0b1111----------------------SyntaxError: invalid decimal literal
+>>> a=0o17.0b1010-------------------------SyntaxError: invalid decimal literal
+>>> a=0xF.0xa-------------------------------SyntaxError: invalid decimal literal
+===========================================x===============================================

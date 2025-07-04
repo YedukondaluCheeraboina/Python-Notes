@@ -1,0 +1,31 @@
+			====================================================================
+									1. Simple 
+			====================================================================
+=>Python Programming is one of the SIMPLE Programming Language bcoz of  THREE Important Techincal Factors. They are
+----------------------------------------------------------------------------------------------
+Factor-1: Rich set of MODULES
+----------------------------------------------------------------------------------------------
+=>Python Programming Provides "Rich Set of Modules".
+=>So that Python Programmer can Re-Use the Pre-Defined Code from Pre-Defined Modules.
+---------------------------------
+Definition of Module
+---------------------------------
+A Module is a Collection of Data members, Functions and Class names.
+Examples:   random, calendar, math,cmath,datetime....etc
+----------------------------------------------------------------------------------------------
+Factor-2: In Built Garbage Collection Process by Garbage Collector
+----------------------------------------------------------------------------------------------
+=>Python Programming Provides In Built Garbage Collection Process by Garbage Collector.
+=>So that Garbage Collector Collects Un-Used Memory space and Improves the Performance of Python based Applications.
+-----------------------------------------------
+Definition of Garbage Collector
+-----------------------------------------------
+=>A Garbage Collector is one of the Python Background Program, which is running along with regular Python Program and whose Role is that To collect Un-used memory space and Improves the Performance of Python Based Applications.
+=>Hence Garbage Collector takes care automatic memory management in Python
+-----------------------------------------------
+----------------------------------------------------------------------------------------------
+Factor-3: It Built User-Friendly Sytaxes.
+----------------------------------------------------------------------------------------------
+=>Python Programming Provides User-Friendly Syntaxes.
+=>So that Python programer can write the Python Program more easily in limited span of time.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------

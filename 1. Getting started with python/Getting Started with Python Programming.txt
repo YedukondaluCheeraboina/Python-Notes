@@ -1,0 +1,54 @@
+				=============================================================
+							Getting Started with Python Programming
+				=============================================================
+Index
+-------------------------------------------------
+=>History Of Python Programming Language
+=>Versions of Python Used in MNC
+=>How to download and install Python Software
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+						History Of Python Programming Language
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Python Programming Language  Conceived (Foundation Stone laid Down) in the Year 1980.
+=>The Python Programming Language Implemented (Bring into Action) in the Year 1990
+=>The Python Programming Language Officially Released in the Year 1991 Feb 20th
+=>The Python Programming Language Developed by 'GUIDO VAN ROSSUM' (Father / author of Python).
+=>The Python Programming Language Developed at Centrum Winskunde Informatica (CWI) Reasearch Institute in Nether 
+    Lands.
+=>The Python Programming Language Officially maintained and managed by a Non-Commercial Organization Python Software Foundation(PSF).
+=>The official website of Python Software Foundation(PSF) is www.python.org.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+						Versions of Python Used in MNC
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The python Programming Lang Contains 3 Types of Versions. They are
+			1. Python 1.x , here 1 is called Major Version
+							and x represents 0 1 2 3 4 5 6 ...etc(Minor Version)
+							This Version already outdated
+			2. Python 2.x, Here 2 is Called Major Version
+						  and x represents 0 1 2 3 4 5 6 7(Minor Version)	
+						This Version already outdated--2020-01-01
+
+			3. Python 3.x  (Current Version)
+							Here 3 is Called Major Version	
+							and x represents 0 1 2 3 4 5 6 7 8 9 10 11 12 13 (Minor Version)	
+										here 0 1 2 3 4 5 6 7,8-----Older Version
+											  9 10 11 12  ----Older Version--Still Continued In Industry
+											  13 --------------Latest Version--2024-10-01
+											  14---------------Future/ Pre-view Version--2025-10-01
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+						How to download and install Python Software
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Goto  www.python.org
+=>Choose the Down Loads and Click and Install
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Day-1 https://youtu.be/84EbzZbroLU
+Day-2 https://youtu.be/VHKGEkxeEBE
+Day-3 https://youtu.be/3PC8oHJM_O8
+Day-4 https://youtu.be/_uUVsOzVAmY
+
+
+

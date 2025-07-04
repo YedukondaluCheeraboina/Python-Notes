@@ -1,0 +1,114 @@
+				==========================================================
+								 tuple
+				==========================================================
+Index
+-------------
+=>Purpose of  tuple
+=>Notations for Storing tuple Data
+=>Memory Mgmt of tuple data
+=>Operations on tuple
+		a) Indexing
+		b) Slicing
+=>Types of tuple Objects
+		a) Empty tuple
+		b) Non-Empty tuple
+=>Pre-Defined functions in tuple--Most Imp
+=>Inner tuple OR Nested tuple
+=>Combination of tuple with list and list with tuple
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Properties of tuple
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Here 'tuple' is one of the Pre-Defined Class and treated as List data type.
+=>The purpose of 'tuple' data type is that "To store Multiple values either of Same type or Different type or Both the Types in single Object with Unique OR Duplicates by maintaining CONSTANT VALUES".
+=>In Otherwords, tuple data is used for Storing CONSTANT VALUES either of Same type or Different type or Both the Types in single Object with Unique OR Duplicates.
+=>The Symbolic Notation Used for Stroing tuple data is Braces (  ). In otherwords, To store data in tuple, the Values 
+    must be written within braces and values Must be separated by comma.
+			Syntax:  varname=(Val1, Val2,.....,Val-n)
+=>An object of tuple maintains Insertion Order.
+=>On the Object of tuple, we can perform Both Indexing and Slicing Operations
+=>An object of tuple belongs to IMMUTABLE bcoz tuple object does not allows us to perform Item assignment.
+=>By using tuple class, we can create Two types of tuple Objects. They are
+				1. Empty tuple
+				2. Non-Empty tuple
+--------------------------------------
+1. Empty tuple
+--------------------------------------
+=>An Empty tuple is one, which does not any Elements and whose length is 0.
+=>Syntax-1:    varname=( )
+=>Syntax-2:    varname=tuple()
+--------------------------------------
+2. Non-Empty tuple
+--------------------------------------
+=>A Non-Empty tuple is one, which Contains Elements and whose length is >0.
+=>Syntax-1:    varname=(Val1,Val2,....Val-n)
+=>Syntax-2:    varname=Val1,Val2,....Val-n
+=>Syntax-3:	  varname=(Val1,)
+=>Syntax-4:    varname=tuple(object)# here Object belongs to Iterable Object (Contains More than One Value) 	
+=>Syntax-5:    varname=tuple([object])# here Object belongs to Iterable Object (Contains More than One Value) 	
+=>Syntax-6:    varname=tuple((object,))# here Object belongs to Non-Iterable Object (Contains One Value) 	
+=>Syntax-7:    varname=tuple([object])# here Object belongs to Non-Iterable Object (Contains One Value) 	
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> t1=(10,20,30,10,20,56,78,-12)
+>>> print(t1,type(t1))-----------------(10, 20, 30, 10, 20, 56, 78, -12) <class 'tuple'>
+>>> t2=(100,'RS',45.67,True,2+3j)
+>>> print(t2,type(t2))----------------(100, 'RS', 45.67, True, (2+3j)) <class 'tuple'>
+------------------------
+>>> t2=(100,'RS',45.67,True,2+3j)
+>>> print(t2,type(t2))---------------(100, 'RS', 45.67, True, (2+3j)) <class 'tuple'>
+>>> t2[0]-------------------------------100
+>>> t2[1]-------------------------------'RS'
+>>> t2[-1]------------------------------(2+3j)
+>>> t2[1:4]----------------------------('RS', 45.67, True)
+>>> t2[::-1]----------------------------((2+3j), True, 45.67, 'RS', 100)
+------------------------------------
+>>> t2=(100,'RS',45.67,True,2+3j)
+>>> print(t2,type(t2))------------------(100, 'RS', 45.67, True, (2+3j)) <class 'tuple'>
+>>> t2[0]----------------------------------100
+>>> t2[0]=1000---------------------------TypeError: 'tuple' object does not support item assignment
+--------------------------------------------------------------
+>>> t1=()
+>>> print(t1,type(t1))--------------------() <class 'tuple'>
+>>> len(t1)----------------------------------0
+			OR
+>>> t2=tuple()
+>>> print(t2,type(t2))--------------------() <class 'tuple'>
+>>> len(t2)----------------------------------0
+-----------------------------------------------------------------
+>>> t1=(10,20,30,10,20,56,78,-12)
+>>> print(t1,type(t1))---------------(10, 20, 30, 10, 20, 56, 78, -12) <class 'tuple'>
+>>> len(t1)--------------------8
+		OR
+>>> t2=10,20,30,40,50,10,20
+>>> print(t2,type(t2))-------------------(10, 20, 30, 40, 50, 10, 20) <class 'tuple'>
+		OR
+>>> t=(10)
+>>> print(t,type(t))-----------------10 <class 'int'>
+>>> t=(10,)
+>>> print(t,type(t))-----------------(10,) <class 'tuple'>
+>>> x=("PYTHON",)
+>>> print(x,type(x))---------------('PYTHON',) <class 'tuple'>
+	OR
+>>> s="PYTHON"
+>>> print(s,type(s))----------------PYTHON <class 'str'>
+>>> t=tuple(s)
+>>> print(t,type(t))------------------('P', 'Y', 'T', 'H', 'O', 'N') <class 'tuple'>
+>>> t=tuple([s])
+>>> print(t,type(t))------------------('PYTHON',) <class 'tuple'>
+-------------------------------------
+>>> a=10
+>>> print(a,type(a))--------------------10 <class 'int'>
+>>> t=tuple(a,)---------------------------TypeError: 'int' object is not iterable
+>>> t=tuple(a)----------------------------TypeError: 'int' object is not iterable
+>>> t=tuple( (a,) )  # Valid
+>>> print(t,type(t))----------------------(10,) <class 'tuple'>
+		OR
+>>> a=1.2
+>>> print(a,type(a))-------------------1.2 <class 'float'>
+>>> t=tuple([a])
+>>> print(t,type(t))-------------------(1.2,) <class 'tuple'>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE: The functionality of tuple is exactly similar to list. But an object of list belongs to MUTABLE bcoz list object allows us to Perform Adding, deletion, updation..etc Operation Where as an object of tuple belongs to IMMUTABLE bcoz tuple object never allows to perform Object Assigment (Adding, deletion, updation..etc Operation not possible).
+----------------------------------------------------------------------------------------------------------------------------------------------------------

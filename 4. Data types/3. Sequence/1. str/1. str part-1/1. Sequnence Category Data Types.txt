@@ -1,0 +1,11 @@
+					=================================================
+							II. Sequnence Category Data Types
+					=================================================
+=>The Purpose of Sequnence Category Data Types is that "To store Sequence of Values in single Object".
+=>In Python Programming ,we have 4 Sequnence Category Data Types. They are
+
+				1. str
+				2. bytes
+				3. bytearray
+				4. range
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

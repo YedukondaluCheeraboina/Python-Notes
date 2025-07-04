@@ -1,0 +1,32 @@
+				===================================================
+						String Handling  Part-2
+				===================================================
+=>On str object, we can perform Both Indexing and Slicing Operation with Various Syntaxes.
+=>An object of str belongs to Immutable bcoz 'str' object does not support item assignment.
+=>Along with Indexing and Slicing Operations, we do Verious Operations on str data by using Pre-Defined Functions 
+   Present in str object.
+=>The Pre-Defined Functions in str object are given bellow
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. capitalize()
+2. title()
+3. swapcase()
+4. lower()
+5. upper()
+6. islower()
+7. isupper()
+8. count()
+9. isalpha()
+10. isdigit()
+11.  isalnum()
+12.  index()
+13.  split()
+14.  split(delimeter)
+15. join()
+16. lstrip()
+17. rstrip()
+18. strip()
+19. startswith(str)
+20. endswith(str)
+21.replace()
+22. __contains__
+-------------------------------------------------------------------------------------------------------------------------------------------------------------

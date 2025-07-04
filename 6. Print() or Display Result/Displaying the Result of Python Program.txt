@@ -1,0 +1,195 @@
+				================================================================
+					Displaying the Result of Python Program on Console (Moniter)
+				================================================================
+=>To Displaying the Result of Python Program on Console, we use a Pre-Defined function called print().
+=>In otherwords, print() is used for Displying the Result of Python Program on the console.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-1:   print(val1)
+				OR
+		  print(val1,val2,.....,val-n)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax displays either single Value or Multiple values at a time.
+-------------------------
+Examples
+-------------------------
+>>> a=10
+>>> print(a)
+10
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(a)
+10
+>>> print(b)
+20
+>>> print(c)
+30
+>>> print(a,b,c)
+10 20 30
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-2:   print(Message1)
+				OR
+		    print(Message1,Message2,....,Message-n)
+				OR
+		    print(Message1+Message2+....+Message-n)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>here Message1,Message2,....,Message-n Reprsents String data.
+=>This Syntax displays Message(s) on the console.
+-------------------
+Examples
+--------------------
+>>> print("Hello world")
+Hello world
+>>> print("Hello",'World')
+Hello World
+>>> print("Hello"+'World')
+HelloWorld
+>>> print("Hello"+" "+'World')
+Hello World
+>>> print("python3.13")
+python3.13
+>>> print("python",3.13)
+python 3.13
+>>> print("python"+3.13)-------------------TypeError: can only concatenate str (not "float") to str
+>>> print("python"+str(3.13))-----------python3.13
+>>> print(str(23)+"Python"+str(25))---------23Python25
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-3: print(Message cum Value)
+				OR
+		   print(Value Cum Message)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax displays messages cum values.
+---------------------
+Examples
+---------------------
+>>> a=10
+>>> print("value of a=",a)---------------------value of a= 10
+>>> print(a,"is the value of a")--------------10 is the value of a
+------------------------
+>>> print("Val of a="+str(a))---------------Val of a=10
+>>> print(str(a)+" is the val of a")-------10 is the val of a
+-------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("sum=",c)------------------sum= 30
+>>> print(c,"is the sum")------------30 is the sum
+>>> print("sum="+str(c))------------sum=30
+>>> print(str(c)+" is the sum")---------30 is the sum
+--------------------------------
+>>> print("Sum of",a,"and",b,"=",c)------------Sum of 10 and 20 = 30
+>>> print("Sum of "+str(a)+" and "+str(b)+"="+str(c))-----Sum of 10 and 20=30
+-------------------------
+>>> a=10
+>>> b=20
+>>> c=30
+>>> d=a+b+c
+>>> print("Sum of ",a,",",b,"and",c,"=",d)----------Sum of  10 , 20 and 30 = 60
+>>> print("Sum of "+str(a)+","+str(b)+" and "+str(c)+"="+str(d))---Sum of 10,20 and 30=60
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-4: print(Message cum Value with format() )
+				OR
+		   print(Value Cum Message with format() )
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax displays messages cum values with format()
+=>format() is used for supplying the Values for Place Holders called empty curly braces {} 
+--------------------------
+Examples
+--------------------------
+>>> a=10
+>>> print("Value of a={}".format(a) )---------------Value of a=10
+>>> print("{} is the value".format(a))--------------10 is the value
+--------------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("Sum of {} and {}={}".format(a,b,c))----------Sum of 10 and 20=30
+>>> print("Sum({},{})={}".format(a,b,c))----------------Sum(10,20)=30
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-5:    print(f"{var1},{var2},....,{var-n}" )
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax displays messages cum values with  letter 'f'.
+---------------------------
+Examples
+--------------------------
+>>>a=10
+>>> print(f"Val of a={a}")--------------Val of a=10
+>>> print(f"{a} is the val of a")-------10 is the val of a
+----------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(f"Sum of {a} and {b}={c}")---------Sum of 10 and 20=30
+>>> print(f"sum({a},{b})={c}")-----------------sum(10,20)=30
+>>> print(f"{a}+{b}={c}")------------------------10+20=30
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-6: print(Message cum Value with format Specifiers )
+				OR
+		   print(Value Cum Message with format Specifiers )
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax display the Message Cum Values with Format Specifiers.
+=>here format Specifiers Represents the following
+		1. %d  Represents Integer Data
+		2. %f   Represents float Data
+		3. %s reprsents  str data
+=>If don't have any format specifier for Other value then we Must that value into str type by using str() and use %s.
+--------------------------
+Examples
+---------------------------
+>>> a=10
+>>> print("Value of a=%d" %a)-----------Value of a=10
+>>> print("%d is the val of a=" %a)------10 is the val of a=
+---------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("Sum of %d and %d=%d" %(a,b,c))--------------Sum of 10 and 20=30
+>>> print("sum(%d,%d)=%d" %(a,b,c))----------------------sum(10,20)=30
+-------------------------
+>>> a=1.2
+>>> b=2.2
+>>> c=a+b
+>>> print("Sum of %f and %f=%f" %(a,b,c))------------Sum of 1.200000 and 2.200000=3.400000
+>>> print("Sum of %0.2f and %0.2f=%0.2f" %(a,b,c))----Sum of 1.20 and 2.20=3.40
+>>> print("Sum of %0.1f and %0.1f=%0.1f" %(a,b,c))---Sum of 1.2 and 2.2=3.4
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print("Sum of %f and %f=%f" %(a,b,c))----Sum of 10.000000 and 20.000000=30.000000
+>>> print("Sum of %0.2f and %0.2f=%0.2f" %(a,b,c))---Sum of 10.00 and 20.00=30.00
+----------------------------
+>>> sno=10
+>>> sname='Rossum'
+>>> marks=45.67
+>>> print("My Number is %d and name is %s and marks are %0.2f" %(sno,sname,marks))
+					My Number is 10 and name is Rossum and marks are 45.67
+------------------
+>>> print("My Number is %d and name is '%s' and marks are %0.2f" %(sno,sname,marks))
+				My Number is 10 and name is 'Rossum' and marks are 45.67
+------------------------
+>>> lst=[10,"Rossum",34.56,True]
+>>> print(lst)---------------------[10, 'Rossum', 34.56, True]
+>>> print("Content of list=",lst)---------Content of list= [10, 'Rossum', 34.56, True]
+>>> print("Content of list={}".format(lst))--------Content of list=[10, 'Rossum', 34.56, True]
+>>> print(f"Content of list={lst}")-----------------Content of list=[10, 'Rossum', 34.56, True]
+>>> print("Content of list=%d" %lst)----------------TypeError: %d format: a real number is required, not list
+>>> print("Content of list=%s" %str(lst))--------Content of list=[10, 'Rossum', 34.56, True]
+>>> d={10:1.2,20:2.3,30:3.4}
+>>> print("Content of dict=%s" %str(d))--------Content of dict={10: 1.2, 20: 2.3, 30: 3.4}
+--------------------------------------
+>>> a=12.3456712345
+>>> print("%f" %a)--------------------12.345671
+>>> a=12.3456712345
+>>> print("%0.2f" %a)---------------12.35
+>>> a=12.3446712345
+>>> print("%0.2f" %a)---------------12.34
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-7:  print(Value,end="Delimeter")
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Syntax displays the Result in same Line
+----------------------
+Examples
+----------------------
+for x in range(10,21,2):
+	print(x,end=" ")  #  10 12 14 16 18 20 
+=================================================x================================================

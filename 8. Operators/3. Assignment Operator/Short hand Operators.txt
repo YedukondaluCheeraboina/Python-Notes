@@ -1,0 +1,66 @@
+					=================================================
+								Short hand Operators
+					=================================================
+=>The purpose of Short hand Operators is that "To Improve the Efficiency of Expressions".
+=>Consider the following Expression:
+						Var1 = Var2 op Var3
+				=>Here Var1 is Called Output Variable
+				     and Var2 and Var2 are Called Input Variables.
+				=>For This kind Expressions, we can't apply Short Hand Operators 
+=>We can apply the short hand operators provided there must be a common Variable in the expression by following the Rules of Maths
+=>Consider the following Expression:
+						Var1 = Var1 op Var3
+				=>Here Var1 is Called Input and Output Variable
+				     and  Var2 are Called Input Variable.
+				=>For This kind Expressions, we can apply Short Hand Operators by following the Rules of Maths
+=>The Short hand Operation for the above Normal Expression given Bellow
+					
+						var1 op=var2  # here op= is called Short hand Operator
+-----------------------------------------
+Examples
+-----------------------------------------
+>>> bal=5000
+>>> damt=6000
+>>> bal=bal+damt------------Normal Expression
+>>> print(bal)-----------------11000
+-----------------------
+>>> bal=5000
+>>> damt=6000
+>>> bal += damt  # Here += is called Short hand  Operator
+>>> print(bal)---------------11000
+------------------------------------
+>>> a=10
+>>> b=5
+>>> a=a*b
+>>> print(a)-------------50
+----------------
+>>> a=10
+>>> b=5
+>>> a*=b  # Here *= is called Short hand  Operator
+>>> print(a)---------------50
+------------------------
+>>> a=10
+>>> b=2
+>>> a=a-b
+>>> print(a)
+8
+>>> a=10
+>>> b=2
+>>> a-=b
+>>> print(a)
+8
+----------------------------------
+>>> a=2
+>>> b=3
+>>> c=4
+>>> a=a+b*c
+>>> print(a)
+14
+----------------
+>>> a=2
+>>> b=3
+>>> c=4
+>>> a+=b*c
+>>> print(a)
+14
+========================================x==============================================

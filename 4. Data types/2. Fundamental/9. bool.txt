@@ -1,0 +1,37 @@
+					======================================================
+									3. bool
+					======================================================
+=>Here 'bool' is one of the Pre-Defined Class and Treated as Fundamental data type.
+=>The Purpose of bool data type is that "To store True , False Values".
+=>Here True and False are the Keywords and acts as Boolean values.
+=>In Python Programming, Internally, True is always considered as 1 and False always Considered as 0.
+=>On Bool Values, we can perform Boolean Arithmetic.
+---------------------------------------
+Examples
+---------------------------------------
+>>> a=True
+>>> print(a,type(a))--------------------True <class 'bool'>
+>>> b=False
+>>> print(b,type(b))-------------------False <class 'bool'>
+-----------------------------------------
+>>> a=true--------------------------NameError: name 'true' is not defined
+>>>b=false--------------------------NameError: name 'false' is not defined
+--------------------------------------------
+>>> a=True
+>>> b=False
+>>> c=a+b
+>>> print(c,type(c))------------------1 <class 'int'>
+>>> print(False+False)--------------0
+>>> print(False*False)--------------0
+>>> print(True+True)----------------2
+>>> print(2+3*True+False)----------5
+>>> print(2+3*False)-----------------2
+----------------------------------------------
+>>> print(True/True)----------------1.0
+>>> print(False/True)--------------0.0
+>>> print(False/False)--------------ZeroDivisionError: division by zero
+>>> print(True/False)--------------ZeroDivisionError: division by zero
+>>> print(0b1010+1.1+True)------------------12.1
+>>>
+====================================================x=======================================
+

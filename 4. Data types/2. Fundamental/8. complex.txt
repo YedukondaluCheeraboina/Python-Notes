@@ -1,0 +1,67 @@
+					==============================================
+									4. complex
+					==============================================
+=>Here 'complex' is one of the Pre-Defined Class and Treated as Fundamental data type.
+=>The purpose of 'complex' data type is that "To store Complex values"
+=>The general notation of complex value is given bellow.
+						
+								a+bj  OR  a-bj
+								a+bJ  OR a-bJ
+			Here 'a' represents Real part
+				   'b' represents Imaginary part
+			and Letter 'j' OR 'J' represents  sqrt(-1)
+					OR  sqr(j)=-1
+=>Internally, The real Part and imaginary parts are Considered as float type. 
+=>Programatically, To get Real and Imaginary Parts of Complex Object, we use Two Pre-Defined Attributes (Data Members). They are
+					1. real
+					2. imag
+		Syntax:  ComplexObj.real----->Gives Real part of Complex Value
+				ComplexObj.imag---->gives nImaginary Part of Complex Value
+=>On Complex Values, we can Perform  Arithmetic Operations.
+-----------------------------------------
+Examples
+------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))-----------------------(2+3j) <class 'complex'>
+>>> b=2.5+4.5j
+>>> print(b,type(b))---------------------(2.5+4.5j) <class 'complex'>
+>>> c=10+3.4j
+>>> print(c,type(c))----------------------(10+3.4j) <class 'complex'>
+>>> d=-3.5-5.6j
+>>> print(d,type(d))---------------------(-3.5-5.6j) <class 'complex'>
+------------------------------------
+>>> a=5J
+>>> print(a,type(a))--------------------5j <class 'complex'>
+>>> b=2.4J
+>>> print(b,type(b))-------------------2.4j <class 'complex'>
+>>> c=-4.5j -- Most Imp
+>>> print(c,type(c))-------------------(-0-4.5j) <class 'complex'>
+>>> d=-6j
+>>> print(d,type(d))------------------(-0-6j) <class 'complex'>
+>>> e=8j
+>>> print(e,type(e))-------------------8j <class 'complex'>
+----------------------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))------------------(2+3j) <class 'complex'>
+>>> print(a.real)-----------------------2.0
+>>> print(a.imag)----------------------3.0
+>>> a=-3.4-5.6j
+>>> print(a,type(a))-------------------(-3.4-5.6j) <class 'complex'>
+>>> print(a.real)------------------------  -3.4
+>>> print(a.imag)---------------------- -5.6
+>>> a=-3.4j
+>>> print(a,type(a))---------------------(-0-3.4j) <class 'complex'>
+>>> print(a.real)------------------------- -0.0
+>>> print(a.imag)-------------------------  -3.4
+---------------------------------------------
+>>> a=2+3j
+>>> b=3+4j
+>>> c=a+b
+>>> print(c,type(c))-------------------(5+7j) <class 'complex'>
+>>> a=2+3j
+>>> b=3+4j
+>>> c=a*b
+>>> print(c,type(c))--------------------(-6+17j) <class 'complex'>
+>>> c=a-b
+>>> print(c,type(c))-------------------(-1-1j) <class 'complex'>
+---------------------------------------------------------------------------
